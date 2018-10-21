@@ -1,10 +1,9 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
-import AddSpells from './src/components/AddSpells';
-import AllSpells from './src/components/AllSpells';
-import HomeScreen from './src/components/HomeScreen';
-import SpellBooks from './src/components/SpellBooks';
+import AddSpells from './AddSpells';
+import AllSpells from './AllSpells';
+import HomeScreen from './HomeScreen';
+import SpellBooks from './SpellBooks';
 
 
 const RootStack = createStackNavigator(
