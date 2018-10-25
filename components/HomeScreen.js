@@ -11,7 +11,7 @@ export default class HomeScreen extends React.Component {
         <Text>Spell Cards</Text>
         <Button
           title="All Spells"
-          onPress={() => navigate('allSpellz')}
+          onPress={() => navigate('allSpells')}
         />
         <Button
           title="Add Spells"
