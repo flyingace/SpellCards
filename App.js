@@ -1,9 +1,9 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation';
-import AddSpells from './components/AddSpells';
-import AllSpells from './components/AllSpells';
-import HomeScreen from './components/HomeScreen';
-import SpellBooks from './components/SpellBooks';
+import AddSpells from './src/components/AddSpells';
+import AllSpells from './src/components/AllSpells';
+import HomeScreen from './src/components/HomeScreen';
+import SpellBooks from './src/components/SpellBooks';
 
 
 const RootStack = createStackNavigator(

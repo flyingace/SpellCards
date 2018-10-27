@@ -2,25 +2,27 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default class SpellCard extends React.Component {
-
   parseData = () => {
-    return "HELLO"; //JSON.parse(this.props.spellData);
+    const spellData = this.props.spellData.name;
+    return <Text>{spellData}</Text>;
   };
 
   render() {
     return (
-      <View style={styles.container}>
-        {this.parseData}
+      <View style={styles.spell}>
+        {this.parseData()}
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
+  spell: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 5,
+    backgroundColor: '#ddd',
+    borderBottomColor: 'green',
+    borderBottomWidth: 1,
+    height: 50,
   },
 });
